@@ -3,41 +3,20 @@ import SpotlightCard from './SpotlightCard';
 import projectUi from '../assets/project-ui.png';
 import projectApi from '../assets/project-api.png';
 import projectDb from '../assets/project-db.png';
+import projectSenha from '../assets/project-senha.png';
 
 export default function ProjectsSection() {
   const projects = [
     {
       id: 1,
-      title: 'Aether UI Dashboard',
-      subtitle: 'SISTEMA DE DESIGN & DASHBOARD FUTURISTA',
-      description: 'Uma interface administrativa de alta performance inspirada em ficção científica, focada em glassmorphism refinado, micro-interações fluidas e gráficos em tempo real utilizando React e SVG dinâmicos.',
-      image: projectUi,
-      tags: ['React', 'Vanilla CSS', 'Glassmorphism', 'Framer Motion'],
-      demoLink: '#',
-      githubLink: '#',
-      color: 'rgba(0, 242, 254, 0.15)'
-    },
-    {
-      id: 2,
-      title: 'Helios Orchestrator',
-      subtitle: 'SERVIÇOS EM BACKEND DE ALTA ESCALABILIDADE',
-      description: 'Uma arquitetura baseada em microsserviços integrando Java Spring Boot e Node.js. O sistema utiliza comunicação WebSocket bidirecional para feeds em tempo real e é orquestrado sob containers Docker.',
-      image: projectApi,
-      tags: ['Java', 'Node.js', 'Docker', 'WebSockets', 'MySQL'],
-      demoLink: '#',
-      githubLink: '#',
-      color: 'rgba(161, 140, 209, 0.15)'
-    },
-    {
-      id: 3,
-      title: 'Nexus DB Analytics',
-      subtitle: 'OTIMIZADOR DE BANCO DE DADOS HÍBRIDO',
-      description: 'Ferramenta inteligente desenvolvida em Python para monitorar, auditar e otimizar queries MySQL em ambientes de produção, sugerindo índices automáticos e detectando gargalos com algoritmos preditivos.',
-      image: projectDb,
-      tags: ['Python', 'MySQL', 'Pandas', 'CLI & API', 'Docker'],
-      demoLink: '#',
-      githubLink: '#',
-      color: 'rgba(79, 172, 254, 0.15)'
+      title: 'Password Rules Game',
+      subtitle: 'DESAFIO DE CRIAÇÃO E VALIDAÇÃO DE SENHA',
+      description: 'Um jogo interativo de criação de senhas desafiador baseado em regras progressivas, dinâmicas e lógicas. O jogador precisa construir uma senha que atenda a requisitos cada vez mais complexos e divertidos.',
+      image: projectSenha,
+      tags: ['HTML5', 'CSS3', 'JavaScript (ES6)', 'Vercel'],
+      demoLink: 'https://gabriel-senha.vercel.app/',
+      githubLink: 'https://github.com/gabriellima666/password-game',
+      color: 'rgba(242, 200, 17, 0.15)'
     }
   ];
 
@@ -45,7 +24,7 @@ export default function ProjectsSection() {
     <section id="projects" className="projects-section">
       <div className="glow-orb" style={{ top: '30%', left: '15%', width: '400px', height: '400px', background: 'rgba(0, 242, 254, 0.04)' }}></div>
       <div className="glow-orb" style={{ bottom: '15%', right: '5%', width: '350px', height: '350px', background: 'rgba(161, 140, 209, 0.05)' }}></div>
-      
+
       <div className="container">
         <div className="section-header">
           <h2 className="section-title">Projetos em Destaque</h2>
@@ -62,20 +41,20 @@ export default function ProjectsSection() {
               spotlightColor={project.color}
             >
               <div className="project-image-wrapper">
-                <img 
-                  src={project.image} 
-                  alt={project.title} 
-                  className="project-image" 
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="project-image"
                   loading="lazy"
                 />
                 <div className="project-image-overlay"></div>
                 <span className="project-subtitle-tag">{project.subtitle}</span>
               </div>
-              
+
               <div className="project-content-details">
                 <h3 className="project-title">{project.title}</h3>
                 <p className="project-desc">{project.description}</p>
-                
+
                 <div className="project-tags">
                   {project.tags.map((tag) => (
                     <span key={tag} className="badge project-tag">{tag}</span>
@@ -83,17 +62,17 @@ export default function ProjectsSection() {
                 </div>
 
                 <div className="project-links">
-                  <a href={project.demoLink} className="btn btn-primary project-btn">
+                  <a href={project.demoLink} target="_blank" rel="noopener noreferrer" className="btn btn-primary project-btn">
                     Ver Demo
                     <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" strokeWidth="2" fill="none" style={{ marginLeft: '6px' }}>
-                      <line x1="7" y1="17" x2="17" y2="7"/>
-                      <polyline points="7 7 17 7 17 17"/>
+                      <line x1="7" y1="17" x2="17" y2="7" />
+                      <polyline points="7 7 17 7 17 17" />
                     </svg>
                   </a>
-                  <a href={project.githubLink} className="btn btn-secondary project-btn">
+                  <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="btn btn-secondary project-btn">
                     GitHub
                     <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" strokeWidth="2" fill="none" style={{ marginLeft: '6px' }}>
-                      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
                     </svg>
                   </a>
                 </div>

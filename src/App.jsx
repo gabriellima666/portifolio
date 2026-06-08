@@ -40,11 +40,11 @@ export default function App() {
         
         <div className="container hero-grid">
           <div className="hero-content">
-            <span className="hero-overline">WEB DESIGNER & DEVELOPER</span>
+            <span className="hero-overline">TECNOLOGIA, DADOS & INCLUSÃO DIGITAL</span>
             
             <h1 className="hero-title">
               <DecryptedText 
-                text="GABRIEL SOUSA" 
+                text="GABRIEL LIMA DE SOUSA" 
                 speed={40} 
                 maxIterations={15} 
                 animateOn="view"
@@ -55,14 +55,14 @@ export default function App() {
 
             <div className="hero-subtitle-wrapper">
               <BlurText 
-                text="Arquitetando interfaces futuristas e backend resiliente."
+                text="Liderando iniciativas de inclusão, análise de Business Intelligence e soluções de tecnologia."
                 delay={30}
                 className="hero-subtitle"
               />
             </div>
 
             <p className="hero-description">
-              Sou um designer web focado em criar experiências digitais estéticas, modernas e interativas. Domino o desenvolvimento frontend com React e Angular, aliado a um ecossistema backend robusto usando Node, Java, Python, Docker e MySQL.
+              Auxiliar de Tecnologia no Instituto Cacau Show, profissional de ADS, pós-graduando em Inteligência Artificial e licenciando em Matemática. Desenvolvo interfaces modernas (React, Angular), estruturo dados complexos (Power BI, Looker Studio, MySQL) e administro infraestrutura corporativa de TI.
             </p>
 
             <div className="hero-ctas">
@@ -78,7 +78,7 @@ export default function App() {
           <div className="hero-visual">
             <SpotlightCard className="avatar-card" spotlightColor="rgba(0, 242, 254, 0.2)">
               <div className="avatar-wrapper">
-                <img src={avatarImg} alt="Gabriel Sousa Avatar" className="avatar-image" />
+                <img src={avatarImg} alt="Gabriel Lima de Sousa Avatar" className="avatar-image" />
                 <div className="avatar-indicator">
                   <span className="pulse-dot"></span>
                   <span className="indicator-text">SYSTEM ACTIVE</span>
@@ -103,12 +103,12 @@ export default function App() {
 
           <div className="about-grid">
             <div className="about-text-content">
-              <h3 className="about-heading">Onde a estética encontra a lógica</h3>
+              <h3 className="about-heading">Onde a tecnologia e a educação se conectam</h3>
               <p className="about-paragraph">
-                Acredito que o bom design não deve apenas ser visualmente impactante, mas também performático, intuitivo e bem estruturado no backend. Minha jornada une a sensibilidade artística de um Web Designer com a precisão técnica de um Desenvolvedor Full-Stack.
+                Acredito no poder transformador da tecnologia quando aplicada à educação e à inclusão social. Atuando na interseção entre suporte de TI, ciência de dados e desenvolvimento de software, busco otimizar processos analíticos e capacitar pessoas por meio de metodologias digitais inovadoras.
               </p>
               <p className="about-paragraph">
-                Construo interfaces modernas e reativas usando React e Angular. No lado do servidor, escalo sistemas através de Node.js, Java Spring Boot e Python. Para orquestração e persistência, utilizo Docker e otimizações de banco de dados em MySQL.
+                Como Auxiliar de Tecnologia no Instituto Cacau Show, lidero laboratórios educacionais e facilito workshops sobre ferramentas digitais e Inteligência Artificial. Possuo formação em ADS, MBA em IA em andamento, e combinando lógica matemática, construo soluções robustas ponta a ponta.
               </p>
             </div>
 
@@ -116,16 +116,27 @@ export default function App() {
               <SpotlightCard className="pillar-card" spotlightColor="rgba(0, 242, 254, 0.1)">
                 <div className="pillar-icon">
                   <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" strokeWidth="2" fill="none">
-                    <polygon points="12 2 2 7 12 12 22 7 12 2 12 2"/>
-                    <polyline points="2 17 12 22 22 17"/>
-                    <polyline points="2 12 12 17 22 12"/>
+                    <line x1="18" y1="20" x2="18" y2="10"/>
+                    <line x1="12" y1="20" x2="12" y2="4"/>
+                    <line x1="6" y1="20" x2="6" y2="14"/>
                   </svg>
                 </div>
-                <h4 className="pillar-title">UI/UX Futurista</h4>
-                <p className="pillar-desc">Criação de protótipos de alta fidelidade e interfaces ricas em interações com glassmorphism e animações fluidas.</p>
+                <h4 className="pillar-title">Inteligência de Dados</h4>
+                <p className="pillar-desc">Criação de dashboards no Power BI e Looker Studio para monitoramento de indicadores de desempenho e impacto social.</p>
               </SpotlightCard>
 
               <SpotlightCard className="pillar-card" spotlightColor="rgba(161, 140, 209, 0.1)">
+                <div className="pillar-icon">
+                  <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" strokeWidth="2" fill="none">
+                    <circle cx="12" cy="12" r="3"/>
+                    <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/>
+                  </svg>
+                </div>
+                <h4 className="pillar-title">Desenvolvimento & IA</h4>
+                <p className="pillar-desc">Construção de aplicações reativas em React/Angular e soluções automatizadas integradas com Python e IA.</p>
+              </SpotlightCard>
+
+              <SpotlightCard className="pillar-card" spotlightColor="rgba(79, 172, 254, 0.1)">
                 <div className="pillar-icon">
                   <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" strokeWidth="2" fill="none">
                     <rect x="2" y="2" width="20" height="8" rx="2" ry="2"/>
@@ -134,20 +145,83 @@ export default function App() {
                     <line x1="6" y1="18" x2="6.01" y2="18"/>
                   </svg>
                 </div>
-                <h4 className="pillar-title">Backend Robusto</h4>
-                <p className="pillar-desc">APIs rápidas e serviços resilientes em Node, Java e Python com arquiteturas limpas e organizadas.</p>
+                <h4 className="pillar-title">Infraestrutura & Suporte</h4>
+                <p className="pillar-desc">Configuração de SOs (Windows/macOS), suporte remoto via SysAid/AnyDesk e gerenciamento de Active Directory/Office 365.</p>
               </SpotlightCard>
+            </div>
+          </div>
 
-              <SpotlightCard className="pillar-card" spotlightColor="rgba(79, 172, 254, 0.1)">
-                <div className="pillar-icon">
-                  <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" strokeWidth="2" fill="none">
-                    <rect x="2" y="2" width="20" height="20" rx="4"/>
-                    <path d="M6 10h4v4H6zm8 0h4v4h-4zm-8 6h4v4H6zm8 0h4v4h-4zm0-12h4v4h-4z"/>
-                  </svg>
+          {/* Timeline Section */}
+          <div className="timeline-container">
+            <h3 className="timeline-section-title">Trajetória Profissional & Acadêmica</h3>
+            <div className="timeline-grids">
+              {/* Experiência */}
+              <div className="timeline-column">
+                <h4 className="timeline-column-title">Experiência</h4>
+                <div className="timeline-items">
+                  <div className="timeline-item">
+                    <div className="timeline-dot"></div>
+                    <span className="timeline-date">MAR 2023 - PRESENTE</span>
+                    <h5 className="timeline-role">Auxiliar de Tecnologia</h5>
+                    <span className="timeline-company">Instituto Cacau Show</span>
+                    <p className="timeline-text">
+                      Lidero projetos de inclusão digital e docência de informática (cidadania digital e ferramentas de escritório) para jovens. Crio dashboards pedagógicos e financeiros com Power BI e Looker Studio, além de realizar a manutenção dos laboratórios.
+                    </p>
+                  </div>
+                  <div className="timeline-item">
+                    <div className="timeline-dot"></div>
+                    <span className="timeline-date">JUL 2022 - MAR 2023</span>
+                    <h5 className="timeline-role">Assistente Financeiro</h5>
+                    <span className="timeline-company">Cacau Show</span>
+                    <p className="timeline-text">
+                      Geração de boletos e conciliação financeira via SAP e Bradesco Net Empresa. Resolução de chamados administrativos e gestão de contas a receber.
+                    </p>
+                  </div>
+                  <div className="timeline-item">
+                    <div className="timeline-dot"></div>
+                    <span className="timeline-date">JUL 2021 - JUL 2022</span>
+                    <h5 className="timeline-role">Jovem Aprendiz de Suporte de TI</h5>
+                    <span className="timeline-company">Cacau Show</span>
+                    <p className="timeline-text">
+                      Suporte de TI presencial e remoto via SysAid/AnyDesk. Configuração de máquinas Windows e macOS, além do controle de inventário de equipamentos.
+                    </p>
+                  </div>
                 </div>
-                <h4 className="pillar-title">DevOps & Dados</h4>
-                <p className="pillar-desc">Deploy simplificado utilizando containers Docker e gerenciamento ágil de bancos relacionais MySQL.</p>
-              </SpotlightCard>
+              </div>
+
+              {/* Educação */}
+              <div className="timeline-column">
+                <h4 className="timeline-column-title">Educação</h4>
+                <div className="timeline-items">
+                  <div className="timeline-item">
+                    <div className="timeline-dot"></div>
+                    <span className="timeline-date">JAN 2026 - DEZ 2026</span>
+                    <h5 className="timeline-role">MBA em Inteligência Artificial</h5>
+                    <span className="timeline-company">Estácio</span>
+                    <p className="timeline-text">
+                      Pós-graduação Lato Sensu focada em algoritmos inteligentes, aprendizado de máquina e tomada de decisões corporativas com inteligência de dados.
+                    </p>
+                  </div>
+                  <div className="timeline-item">
+                    <div className="timeline-dot"></div>
+                    <span className="timeline-date">JUL 2025 - JUN 2029</span>
+                    <h5 className="timeline-role">Licenciatura em Matemática</h5>
+                    <span className="timeline-company">UNIASSELVI</span>
+                    <p className="timeline-text">
+                      Graduação focada em fundamentação analítica, lógica computacional e capacitação pedagógica acadêmica.
+                    </p>
+                  </div>
+                  <div className="timeline-item">
+                    <div className="timeline-dot"></div>
+                    <span className="timeline-date">JUL 2022 - DEZ 2024</span>
+                    <h5 className="timeline-role">Análise e Desenvolvimento de Sistemas</h5>
+                    <span className="timeline-company">UNINOVE</span>
+                    <p className="timeline-text">
+                      Curso tecnológico focado em arquitetura de software, programação orientada a objetos (Java/JavaScript), modelagem de banco de dados e engenharia de requisitos.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -166,11 +240,11 @@ export default function App() {
       <footer className="footer">
         <div className="container footer-content">
           <div className="footer-logo">
-            <span>GABRIEL SOUSA</span>
+            <span>GABRIEL LIMA</span>
             <span className="logo-dot">.</span>
           </div>
           <p className="footer-copyright">
-            &copy; {currentYear} Gabriel Sousa. Desenvolvido com React e estética futurista.
+            &copy; {currentYear} Gabriel Lima de Sousa. Desenvolvido com React e estética futurista.
           </p>
         </div>
       </footer>
@@ -426,6 +500,106 @@ export default function App() {
           color: var(--text-muted);
         }
 
+        /* Timeline Styles */
+        .timeline-container {
+          margin-top: 80px;
+          border-top: 1px solid var(--border-color);
+          padding-top: 60px;
+          text-align: left;
+        }
+
+        .timeline-section-title {
+          font-family: var(--font-cyber);
+          font-size: 1.5rem;
+          color: var(--text-primary);
+          letter-spacing: 2px;
+          margin-bottom: 40px;
+          text-align: center;
+          text-transform: uppercase;
+        }
+
+        .timeline-grids {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 48px;
+        }
+
+        .timeline-column-title {
+          font-family: var(--font-cyber);
+          font-size: 1.1rem;
+          color: var(--accent-cyan);
+          letter-spacing: 1.5px;
+          text-transform: uppercase;
+          margin-bottom: 24px;
+          position: relative;
+          padding-left: 12px;
+          border-left: 3px solid var(--accent-cyan);
+        }
+
+        .timeline-column:nth-child(2) .timeline-column-title {
+          color: var(--accent-purple);
+          border-left-color: var(--accent-purple);
+        }
+
+        .timeline-items {
+          position: relative;
+          padding-left: 20px;
+          border-left: 1px solid var(--border-color);
+          display: flex;
+          flex-direction: column;
+          gap: 32px;
+        }
+
+        .timeline-item {
+          position: relative;
+        }
+
+        .timeline-dot {
+          position: absolute;
+          left: -25px;
+          top: 6px;
+          width: 9px;
+          height: 9px;
+          border-radius: 50%;
+          background: var(--accent-cyan);
+          box-shadow: 0 0 8px var(--accent-cyan);
+        }
+
+        .timeline-column:nth-child(2) .timeline-dot {
+          background: var(--accent-purple);
+          box-shadow: 0 0 8px var(--accent-purple);
+        }
+
+        .timeline-date {
+          font-family: var(--font-cyber);
+          font-size: 0.75rem;
+          color: var(--text-muted);
+          letter-spacing: 1px;
+          display: block;
+          margin-bottom: 4px;
+        }
+
+        .timeline-role {
+          font-size: 1.1rem;
+          font-weight: 700;
+          color: var(--text-primary);
+          margin-bottom: 2px;
+        }
+
+        .timeline-company {
+          font-size: 0.85rem;
+          color: var(--text-muted);
+          font-weight: 500;
+          display: block;
+          margin-bottom: 8px;
+        }
+
+        .timeline-text {
+          font-size: 0.9rem;
+          color: var(--text-secondary);
+          line-height: 1.5;
+        }
+
         /* Responsive Hero & About */
         @media (max-width: 991px) {
           .hero-grid {
@@ -445,6 +619,11 @@ export default function App() {
           }
 
           .about-grid {
+            grid-template-columns: 1fr;
+            gap: 40px;
+          }
+
+          .timeline-grids {
             grid-template-columns: 1fr;
             gap: 40px;
           }

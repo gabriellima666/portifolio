@@ -58,7 +58,7 @@ export default function ContactSection() {
               </div>
               <div className="info-text">
                 <span className="info-label">E-mail</span>
-                <a href="mailto:contato@exemplo.com" className="info-value">contato@exemplo.com</a>
+                <a href="mailto:gabriellimadesousa0@gmail.com" className="info-value">gabriellimadesousa0@gmail.com</a>
               </div>
             </div>
 
@@ -70,7 +70,7 @@ export default function ContactSection() {
               </div>
               <div className="info-text">
                 <span className="info-label">GitHub</span>
-                <a href="https://github." target="_blank" rel="noopener noreferrer" className="info-value">github.com/perfil</a>
+                <a href="https://github.com/gabriellima666" target="_blank" rel="noopener noreferrer" className="info-value">github.com/gabriellima666</a>
               </div>
             </div>
 
@@ -84,7 +84,7 @@ export default function ContactSection() {
               </div>
               <div className="info-text">
                 <span className="info-label">LinkedIn</span>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="info-value">linkedin.com/in/perfil</a>
+                <a href="https://www.linkedin.com/in/gabriel-lima-sousa" target="_blank" rel="noopener noreferrer" className="info-value">linkedin.com/in/gabriel-lima-sousa</a>
               </div>
             </div>
             

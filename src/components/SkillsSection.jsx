@@ -5,9 +5,9 @@ export default function SkillsSection() {
   const skills = [
     {
       name: 'React',
-      category: 'Frontend',
-      proficiency: 95,
-      description: 'Criação de SPAs modernas, componentização avançada, hooks personalizados e otimização de renderização.',
+      category: 'Desenvolvimento Web',
+      proficiency: 90,
+      description: 'Criação de SPAs modernas, componentização avançada, hooks personalizados e animações ricas para interfaces de usuário.',
       color: '#00f2fe',
       icon: (
         <svg viewBox="0 0 24 24" width="36" height="36" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -19,9 +19,9 @@ export default function SkillsSection() {
     },
     {
       name: 'Angular',
-      category: 'Frontend',
-      proficiency: 85,
-      description: 'Desenvolvimento modular de aplicações corporativas utilizando RxJS, TypeScript e injeção de dependências.',
+      category: 'Desenvolvimento Web',
+      proficiency: 80,
+      description: 'Desenvolvimento modular de aplicações estruturadas, trabalhando com TypeScript, diretivas e injeção de dependência.',
       color: '#ff2a5f',
       icon: (
         <svg viewBox="0 0 24 24" width="36" height="36" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -32,10 +32,24 @@ export default function SkillsSection() {
       )
     },
     {
-      name: 'Node.js',
+      name: 'Power BI & Looker Studio',
+      category: 'Inteligência de Dados',
+      proficiency: 95,
+      description: 'Análise de dados educacionais e financeiros. Criação de dashboards interativos para geração de insights e tomada de decisão.',
+      color: '#f2c811',
+      icon: (
+        <svg viewBox="0 0 24 24" width="36" height="36" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round">
+          <line x1="18" y1="20" x2="18" y2="10"/>
+          <line x1="12" y1="20" x2="12" y2="4"/>
+          <line x1="6" y1="20" x2="6" y2="14"/>
+        </svg>
+      )
+    },
+    {
+      name: 'Node.js & Java',
       category: 'Backend',
-      proficiency: 90,
-      description: 'APIs RESTful e GraphQL robustas, WebSockets para tempo real e processamento assíncrono escalável.',
+      proficiency: 85,
+      description: 'APIs RESTful seguras, serviços integrados com bancos de dados relacionais e estruturação de regras de negócio complexas.',
       color: '#39d353',
       icon: (
         <svg viewBox="0 0 24 24" width="36" height="36" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -46,23 +60,10 @@ export default function SkillsSection() {
       )
     },
     {
-      name: 'Java',
-      category: 'Backend',
-      proficiency: 80,
-      description: 'Serviços escaláveis com Spring Boot, JPA/Hibernate, arquitetura MVC e conceitos de POO consolidados.',
-      color: '#f89820',
-      icon: (
-        <svg viewBox="0 0 24 24" width="36" height="36" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round">
-          <path d="M6 22h12M9 18h6M12 14c-3 0-5-2-5-5s2-5 5-5 5 2 5 5-2 5-5 5z"/>
-          <path d="M12 2c0 2 1 3 2 4s0 3-2 3-2-2-2-3 2-2 2-4z"/>
-        </svg>
-      )
-    },
-    {
-      name: 'Python',
-      category: 'Backend & Data',
-      proficiency: 85,
-      description: 'Automação, processamento de dados robusto com Pandas, APIs Flask/FastAPI e scripts inteligentes.',
+      name: 'Python & IA',
+      category: 'Backend & Ciência de Dados',
+      proficiency: 88,
+      description: 'Análise preditiva de dados e automações inteligentes com foco nos conhecimentos de MBA em Inteligência Artificial.',
       color: '#306998',
       icon: (
         <svg viewBox="0 0 24 24" width="36" height="36" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -72,29 +73,44 @@ export default function SkillsSection() {
       )
     },
     {
-      name: 'Docker',
-      category: 'DevOps',
-      proficiency: 88,
-      description: 'Containerização completa de aplicações, orquestração de múltiplos serviços com Docker Compose e builds otimizados.',
-      color: '#2496ed',
+      name: 'Infraestrutura de TI',
+      category: 'Redes & Suporte',
+      proficiency: 92,
+      description: 'Gestão de Active Directory, Office 365, redes LAN/roteamento, segurança de dados Kaspersky e suporte técnico presencial/remoto.',
+      color: '#a18cd1',
       icon: (
         <svg viewBox="0 0 24 24" width="36" height="36" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round">
-          <rect x="2" y="2" width="20" height="20" rx="4"/>
-          <path d="M6 10h4v4H6zm8 0h4v4h-4zm-8 6h4v4H6zm8 0h4v4h-4zm0-12h4v4h-4z"/>
+          <rect x="2" y="2" width="20" height="8" rx="2" ry="2"/>
+          <rect x="2" y="14" width="20" height="8" rx="2" ry="2"/>
+          <line x1="6" y1="6" x2="6.01" y2="6"/>
+          <line x1="6" y1="18" x2="6.01" y2="18"/>
         </svg>
       )
     },
     {
-      name: 'MySQL',
-      category: 'Database',
-      proficiency: 90,
-      description: 'Modelagem de dados relacional, consultas SQL complexas, otimização de índices e normalização de tabelas.',
+      name: 'MySQL & SAP',
+      category: 'Bancos de Dados & ERP',
+      proficiency: 85,
+      description: 'Consultas SQL relacionais otimizadas, modelagem de tabelas e conciliação/lançamento de faturamentos integrados via SAP.',
       color: '#00758f',
       icon: (
         <svg viewBox="0 0 24 24" width="36" height="36" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round">
           <ellipse cx="12" cy="5" rx="9" ry="3"/>
           <path d="M3 5v6c0 1.66 4 3 9 3s9-1.34 9-3V5"/>
           <path d="M3 11v6c0 1.66 4 3 9 3s9-1.34 9-3v-6"/>
+        </svg>
+      )
+    },
+    {
+      name: 'Docker & DevOps',
+      category: 'Infraestrutura Ágil',
+      proficiency: 80,
+      description: 'Containerização de ambientes de desenvolvimento, deploy de serviços e organização de esteiras ágeis.',
+      color: '#2496ed',
+      icon: (
+        <svg viewBox="0 0 24 24" width="36" height="36" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round">
+          <rect x="2" y="2" width="20" height="20" rx="4"/>
+          <path d="M6 10h4v4H6zm8 0h4v4h-4zm-8 6h4v4H6zm8 0h4v4h-4zm0-12h4v4h-4z"/>
         </svg>
       )
     }
@@ -109,7 +125,7 @@ export default function SkillsSection() {
         <div className="section-header">
           <h2 className="section-title">Habilidades Técnicas</h2>
           <p className="section-subtitle">
-            Combinação de design centrado no usuário e arquitetura técnica robusta, cobrindo todo o ciclo de vida do desenvolvimento de software.
+            Uma abordagem integrada abrangendo análise de dados inteligentes, desenvolvimento web ágil e gestão robusta de infraestrutura de TI.
           </p>
         </div>
 
@@ -118,7 +134,7 @@ export default function SkillsSection() {
             <SpotlightCard 
               key={skill.name} 
               className="skill-card"
-              spotlightColor={`${skill.color}1c`} // Append transparency hex for card glow
+              spotlightColor={`${skill.color}1c`}
             >
               <div className="skill-card-inner">
                 <div className="skill-header">
