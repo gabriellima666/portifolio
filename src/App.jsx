@@ -8,6 +8,8 @@ import SkillsSection from './components/SkillsSection';
 import ProjectsSection from './components/ProjectsSection';
 import ContactSection from './components/ContactSection';
 import avatarImg from './assets/avatar.jpg';
+import TiltedCard from './components/TiltedCard';
+
 
 export default function App() {
   const currentYear = new Date().getFullYear();
@@ -76,15 +78,22 @@ export default function App() {
           </div>
 
           <div className="hero-visual">
-            <SpotlightCard className="avatar-card" spotlightColor="rgba(0, 242, 254, 0.2)">
-              <div className="avatar-wrapper">
-                <img src={avatarImg} alt="Gabriel Lima de Sousa Avatar" className="avatar-image" />
+            <TiltedCard
+              imageSrc={avatarImg}
+              altText="Gabriel Lima de Sousa Avatar"
+              captionText="GABRIEL LIMA"
+              scaleOnHover={1.05}
+              rotateAmplitude={12}
+              showMobileWarning={false}
+              showTooltip={true}
+              displayOverlayContent={true}
+              overlayContent={
                 <div className="avatar-indicator">
                   <span className="pulse-dot"></span>
                   <span className="indicator-text">SYSTEM ACTIVE</span>
                 </div>
-              </div>
-            </SpotlightCard>
+              }
+            />
           </div>
         </div>
       </section>

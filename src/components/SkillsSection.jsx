@@ -180,9 +180,11 @@ export default function SkillsSection() {
 
         .skills-grid {
           display: grid;
-          grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+          grid-template-columns: repeat(auto-fit, minmax(300px, 340px));
           gap: 24px;
+          justify-content: center;
         }
+
 
         .skill-card {
           min-height: 250px;
@@ -273,6 +275,15 @@ export default function SkillsSection() {
           height: 100%;
           border-radius: 3px;
           transition: width 1.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+        }
+
+        @media (max-width: 480px) {
+          .skills-grid {
+            grid-template-columns: 1fr;
+          }
+          .skill-card-inner {
+            padding: 20px;
+          }
         }
       `}</style>
     </section>
