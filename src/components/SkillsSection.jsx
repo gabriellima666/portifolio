@@ -7,7 +7,7 @@ export default function SkillsSection() {
       name: 'React',
       category: 'Desenvolvimento Web',
       proficiency: 90,
-      description: 'Criação de SPAs modernas, componentização avançada, hooks personalizados e animações ricas para interfaces de usuário.',
+      description: 'Desenvolvimento de SPAs didáticas e simuladores educativos interativos com interfaces reativas e animações fluidas.',
       color: '#00f2fe',
       icon: (
         <svg viewBox="0 0 24 24" width="36" height="36" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -21,7 +21,7 @@ export default function SkillsSection() {
       name: 'Angular',
       category: 'Desenvolvimento Web',
       proficiency: 80,
-      description: 'Desenvolvimento modular de aplicações estruturadas, trabalhando com TypeScript, diretivas e injeção de dependência.',
+      description: 'Estruturação modular de portais educacionais, trabalhando com TypeScript, controle de rotas e injeção de dependência.',
       color: '#ff2a5f',
       icon: (
         <svg viewBox="0 0 24 24" width="36" height="36" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -35,7 +35,7 @@ export default function SkillsSection() {
       name: 'Power BI & Looker Studio',
       category: 'Inteligência de Dados',
       proficiency: 95,
-      description: 'Análise de dados educacionais e financeiros. Criação de dashboards interativos para geração de insights e tomada de decisão.',
+      description: 'Análise de métricas de aprendizagem, evasão e engajamento. Geração de relatórios de impacto social e dashboards corporativos.',
       color: '#f2c811',
       icon: (
         <svg viewBox="0 0 24 24" width="36" height="36" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -49,7 +49,7 @@ export default function SkillsSection() {
       name: 'Node.js & Java',
       category: 'Backend',
       proficiency: 85,
-      description: 'APIs RESTful seguras, serviços integrados com bancos de dados relacionais e estruturação de regras de negócio complexas.',
+      description: 'APIs seguras e estruturação de bancos de dados para armazenamento de dados acadêmicos e registros administrativos escolares.',
       color: '#39d353',
       icon: (
         <svg viewBox="0 0 24 24" width="36" height="36" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -63,7 +63,7 @@ export default function SkillsSection() {
       name: 'Python & IA',
       category: 'Backend & Ciência de Dados',
       proficiency: 88,
-      description: 'Análise preditiva de dados e automações inteligentes com foco nos conhecimentos de MBA em Inteligência Artificial.',
+      description: 'Algoritmos inteligentes aplicados a trilhas de ensino personalizado e automações de rotinas escolares e de TI.',
       color: '#306998',
       icon: (
         <svg viewBox="0 0 24 24" width="36" height="36" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -76,7 +76,7 @@ export default function SkillsSection() {
       name: 'Infraestrutura de TI',
       category: 'Redes & Suporte',
       proficiency: 92,
-      description: 'Gestão de Active Directory, Office 365, redes LAN/roteamento, segurança de dados Kaspersky e suporte técnico presencial/remoto.',
+      description: 'Gestão de laboratórios de informática escolares, Active Directory/Office 365 acadêmicos e suporte a professores e alunos.',
       color: '#a18cd1',
       icon: (
         <svg viewBox="0 0 24 24" width="36" height="36" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -91,7 +91,7 @@ export default function SkillsSection() {
       name: 'MySQL & SAP',
       category: 'Bancos de Dados & ERP',
       proficiency: 85,
-      description: 'Consultas SQL relacionais otimizadas, modelagem de tabelas e conciliação/lançamento de faturamentos integrados via SAP.',
+      description: 'Modelagem relacional de registros acadêmicos e conciliação de faturamentos de projetos sociais integrados via SAP.',
       color: '#00758f',
       icon: (
         <svg viewBox="0 0 24 24" width="36" height="36" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -105,7 +105,7 @@ export default function SkillsSection() {
       name: 'Docker & DevOps',
       category: 'Infraestrutura Ágil',
       proficiency: 80,
-      description: 'Containerização de ambientes de desenvolvimento, deploy de serviços e organização de esteiras ágeis.',
+      description: 'Containerização de ambientes escolares (Moodle, ferramentas didáticas) e esteiras ágeis para deploy de aplicações didáticas.',
       color: '#2496ed',
       icon: (
         <svg viewBox="0 0 24 24" width="36" height="36" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -116,6 +116,7 @@ export default function SkillsSection() {
     }
   ];
 
+
   return (
     <section id="skills" className="skills-section">
       <div className="glow-orb" style={{ top: '20%', right: '10%', width: '300px', height: '300px', background: 'rgba(161, 140, 209, 0.08)' }}></div>
@@ -125,9 +126,10 @@ export default function SkillsSection() {
         <div className="section-header">
           <h2 className="section-title">Habilidades Técnicas</h2>
           <p className="section-subtitle">
-            Uma abordagem integrada abrangendo análise de dados inteligentes, desenvolvimento web ágil e gestão robusta de infraestrutura de TI.
+            Competências aplicadas à criação de tecnologias didáticas, gestão de laboratórios e análise de indicadores educacionais.
           </p>
         </div>
+
 
         <div className="skills-grid">
           {skills.map((skill) => (

@@ -42,7 +42,7 @@ export default function App() {
         
         <div className="container hero-grid">
           <div className="hero-content">
-            <span className="hero-overline">TECNOLOGIA, DADOS & INCLUSÃO DIGITAL</span>
+            <span className="hero-overline">TECNOLOGIA EDUCACIONAL, MATEMÁTICA & SEGURANÇA</span>
             
             <h1 className="hero-title">
               <DecryptedText 
@@ -57,15 +57,16 @@ export default function App() {
 
             <div className="hero-subtitle-wrapper">
               <BlurText 
-                text="Liderando iniciativas de inclusão, análise de Business Intelligence e soluções de tecnologia."
+                text="Desenvolvendo simuladores educativos, jogos didáticos e inclusão digital orientada à lógica matemática."
                 delay={30}
                 className="hero-subtitle"
               />
             </div>
 
             <p className="hero-description">
-              Auxiliar de Tecnologia no Instituto Cacau Show, profissional de ADS, pós-graduando em Inteligência Artificial e licenciando em Matemática. Desenvolvo interfaces modernas (React, Angular), estruturo dados complexos (Power BI, Looker Studio, MySQL) e administro infraestrutura corporativa de TI.
+              Auxiliar de Tecnologia no Instituto Cacau Show, licenciando em Matemática e pós-graduando em Inteligência Artificial. Desenvolvo dinâmicas e jogos interativos para o ensino prático de segurança da informação, plataformas de inclusão digital e painéis analíticos para tomadas de decisões pedagógicas.
             </p>
+
 
             <div className="hero-ctas">
               <button onClick={() => handleScrollTo('projects')} className="btn btn-primary">
@@ -106,7 +107,7 @@ export default function App() {
           <div className="section-header">
             <h2 className="section-title">Sobre Mim</h2>
             <p className="section-subtitle">
-              Unindo design refinado e engenharia de software de alto nível para construir soluções web completas.
+              Unindo tecnologia e docência para democratizar o conhecimento técnico e a lógica matemática.
             </p>
           </div>
 
@@ -114,10 +115,10 @@ export default function App() {
             <div className="about-text-content">
               <h3 className="about-heading">Onde a tecnologia e a educação se conectam</h3>
               <p className="about-paragraph">
-                Acredito no poder transformador da tecnologia quando aplicada à educação e à inclusão social. Atuando na interseção entre suporte de TI, ciência de dados e desenvolvimento de software, busco otimizar processos analíticos e capacitar pessoas por meio de metodologias digitais inovadoras.
+                Acredito no poder transformador da educação mediada por tecnologias digitais. Atuando na docência de informática e inclusão digital, desenvolvo simuladores e jogos interativos como recursos didáticos, aplicando a lógica matemática na resolução de problemas práticos.
               </p>
               <p className="about-paragraph">
-                Como Auxiliar de Tecnologia no Instituto Cacau Show, lidero laboratórios educacionais e facilito workshops sobre ferramentas digitais e Inteligência Artificial. Possuo formação em ADS, MBA em IA em andamento, e combinando lógica matemática, construo soluções robustas ponta a ponta.
+                Como Auxiliar de Tecnologia no Instituto Cacau Show, lidero laboratórios educacionais e facilito oficinas digitais sobre tecnologias emergentes. Possuo formação em ADS, MBA em IA em andamento, e utilizo minha base em Matemática para construir softwares com real propósito social e pedagógico.
               </p>
             </div>
 
@@ -130,8 +131,8 @@ export default function App() {
                     <line x1="6" y1="20" x2="6" y2="14"/>
                   </svg>
                 </div>
-                <h4 className="pillar-title">Inteligência de Dados</h4>
-                <p className="pillar-desc">Criação de dashboards no Power BI e Looker Studio para monitoramento de indicadores de desempenho e impacto social.</p>
+                <h4 className="pillar-title">Tecnologia Educacional</h4>
+                <p className="pillar-desc">Criação de dashboards no Power BI e Looker Studio para monitoramento de indicadores de aprendizagem, desempenho e impacto social.</p>
               </SpotlightCard>
 
               <SpotlightCard className="pillar-card" spotlightColor="rgba(161, 140, 209, 0.1)">
@@ -141,8 +142,8 @@ export default function App() {
                     <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/>
                   </svg>
                 </div>
-                <h4 className="pillar-title">Desenvolvimento & IA</h4>
-                <p className="pillar-desc">Construção de aplicações reativas em React/Angular e soluções automatizadas integradas com Python e IA.</p>
+                <h4 className="pillar-title">Gamificação & IA</h4>
+                <p className="pillar-desc">Desenvolvimento de simuladores didáticos interativos, jogos de conscientização digital e integração de modelos generativos de IA na educação.</p>
               </SpotlightCard>
 
               <SpotlightCard className="pillar-card" spotlightColor="rgba(79, 172, 254, 0.1)">
@@ -154,11 +155,12 @@ export default function App() {
                     <line x1="6" y1="18" x2="6.01" y2="18"/>
                   </svg>
                 </div>
-                <h4 className="pillar-title">Infraestrutura & Suporte</h4>
-                <p className="pillar-desc">Configuração de SOs (Windows/macOS), suporte remoto via SysAid/AnyDesk e gerenciamento de Active Directory/Office 365.</p>
+                <h4 className="pillar-title">Laboratórios & Suporte</h4>
+                <p className="pillar-desc">Manutenção e gerenciamento de infraestrutura escolar de TI, implantação de softwares educacionais e suporte a alunos e professores.</p>
               </SpotlightCard>
             </div>
           </div>
+
 
           {/* Timeline Section */}
           <div className="timeline-container">

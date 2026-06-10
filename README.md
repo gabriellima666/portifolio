@@ -1,6 +1,7 @@
 # Cyberpunk Portfolio - Gabriel Lima de Sousa
 
-Este é um portfólio profissional moderno, altamente interativo e dinâmico, desenvolvido com a estética retro-futurista **Cyberpunk/Red Team**. O projeto apresenta animações fluidas, efeitos de paralaxe 3D, partículas flutuantes e painéis de vidro holográficos (glassmorphism) para destacar habilidades de TI, análise de dados e desenvolvimento de software.
+Este é um portfólio profissional moderno, altamente interativo e dinâmico, desenvolvido com a estética retro-futurista **Cyberpunk/Red Team**. O projeto é focado em **Tecnologia Educacional e Matemática**, destacando o desenvolvimento de simuladores educativos, jogos didáticos, análise de indicadores pedagógicos e gestão de laboratórios digitais.
+
 
 🌐 **Demonstração Online**: [https://www.glstech.online/](https://www.glstech.online/)
 

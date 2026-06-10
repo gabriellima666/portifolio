@@ -11,9 +11,10 @@ export default function ContactSection() {
         <div className="section-header">
           <h2 className="section-title">Iniciar Conexão</h2>
           <p className="section-subtitle">
-            Interessado em colaborar em um projeto inovador, contratar meus serviços ou apenas trocar ideias sobre tecnologia? Entre em contato através dos meus canais oficiais abaixo.
+            Interessado em desenvolver projetos educacionais, dinâmicas interativas ou trocar ideias sobre tecnologia aplicada ao ensino e à matemática? Conecte-se comigo.
           </p>
         </div>
+
 
         <div className="contact-card-container">
           <SpotlightCard className="contact-info-card" spotlightColor="rgba(0, 242, 254, 0.12)">
